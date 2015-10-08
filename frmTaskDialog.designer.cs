@@ -292,7 +292,7 @@ namespace PSTaskDialog
       this.MinimizeBox = false;
       this.Name = "frmTaskDialog";
       this.ShowInTaskbar = false;
-      this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+      this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
       this.Text = "frmTaskDialog";
       this.Shown += new System.EventHandler(this.frmTaskDialog_Shown);
       ((System.ComponentModel.ISupportInitialize)(this.imgMain)).EndInit();
